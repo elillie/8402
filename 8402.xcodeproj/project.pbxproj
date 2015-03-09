@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3F1ECC1AA4DF0000F3B395 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F1ECA1AA4DF0000F3B395 /* PlayViewController.swift */; };
+		FC3F1ECF1AA4F16500F3B395 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3F1ECE1AA4F16500F3B395 /* PlayViewController.xib */; };
+		FC3F1ED21AA51FC700F3B395 /* TwoOrFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F1ED01AA51FC700F3B395 /* TwoOrFourViewController.swift */; };
+		FC3F1ED31AA51FC700F3B395 /* TwoOrFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3F1ED11AA51FC700F3B395 /* TwoOrFourViewController.xib */; };
+		FC3F1ED51AA531C500F3B395 /* OuterTouchPreservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F1ED41AA531C500F3B395 /* OuterTouchPreservingView.swift */; };
+		FC3F1EDA1AA5414500F3B395 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F1ED81AA5414500F3B395 /* NumberViewController.swift */; };
+		FC3F1EDB1AA5414500F3B395 /* NumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3F1ED91AA5414500F3B395 /* NumberViewController.xib */; };
+		FC3F1EDD1AA54FBB00F3B395 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F1EDC1AA54FBB00F3B395 /* DataStructures.swift */; };
 		FCB557AA1AA425E600512B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB557A91AA425E600512B3E /* AppDelegate.swift */; };
-		FCB557AC1AA425E600512B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB557AB1AA425E600512B3E /* ViewController.swift */; };
-		FCB557AF1AA425E600512B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB557AD1AA425E600512B3E /* Main.storyboard */; };
 		FCB557B11AA425E600512B3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB557B01AA425E600512B3E /* Images.xcassets */; };
 		FCB557B41AA425E600512B3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB557B21AA425E600512B3E /* LaunchScreen.xib */; };
 		FCB557C01AA425E600512B3E /* _402Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB557BF1AA425E600512B3E /* _402Tests.swift */; };
@@ -26,11 +32,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC3F1ECA1AA4DF0000F3B395 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		FC3F1ECE1AA4F16500F3B395 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		FC3F1ED01AA51FC700F3B395 /* TwoOrFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoOrFourViewController.swift; sourceTree = "<group>"; };
+		FC3F1ED11AA51FC700F3B395 /* TwoOrFourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoOrFourViewController.xib; sourceTree = "<group>"; };
+		FC3F1ED41AA531C500F3B395 /* OuterTouchPreservingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuterTouchPreservingView.swift; sourceTree = "<group>"; };
+		FC3F1ED81AA5414500F3B395 /* NumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		FC3F1ED91AA5414500F3B395 /* NumberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberViewController.xib; sourceTree = "<group>"; };
+		FC3F1EDC1AA54FBB00F3B395 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		FCB557A41AA425E600512B3E /* 8402.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8402.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB557A81AA425E600512B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCB557A91AA425E600512B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCB557AB1AA425E600512B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCB557AE1AA425E600512B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCB557B01AA425E600512B3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCB557B31AA425E600512B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FCB557B91AA425E600512B3E /* 8402Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 8402Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				FCB557A91AA425E600512B3E /* AppDelegate.swift */,
-				FCB557AB1AA425E600512B3E /* ViewController.swift */,
-				FCB557AD1AA425E600512B3E /* Main.storyboard */,
+				FC3F1EDC1AA54FBB00F3B395 /* DataStructures.swift */,
+				FC3F1ECA1AA4DF0000F3B395 /* PlayViewController.swift */,
+				FC3F1ECE1AA4F16500F3B395 /* PlayViewController.xib */,
+				FC3F1ED01AA51FC700F3B395 /* TwoOrFourViewController.swift */,
+				FC3F1ED11AA51FC700F3B395 /* TwoOrFourViewController.xib */,
+				FC3F1ED41AA531C500F3B395 /* OuterTouchPreservingView.swift */,
+				FC3F1ED81AA5414500F3B395 /* NumberViewController.swift */,
+				FC3F1ED91AA5414500F3B395 /* NumberViewController.xib */,
 				FCB557B01AA425E600512B3E /* Images.xcassets */,
 				FCB557B21AA425E600512B3E /* LaunchScreen.xib */,
 				FCB557A71AA425E600512B3E /* Supporting Files */,
@@ -192,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB557AF1AA425E600512B3E /* Main.storyboard in Resources */,
 				FCB557B41AA425E600512B3E /* LaunchScreen.xib in Resources */,
+				FC3F1EDB1AA5414500F3B395 /* NumberViewController.xib in Resources */,
 				FCB557B11AA425E600512B3E /* Images.xcassets in Resources */,
+				FC3F1ED31AA51FC700F3B395 /* TwoOrFourViewController.xib in Resources */,
+				FC3F1ECF1AA4F16500F3B395 /* PlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB557AC1AA425E600512B3E /* ViewController.swift in Sources */,
+				FC3F1ECC1AA4DF0000F3B395 /* PlayViewController.swift in Sources */,
 				FCB557AA1AA425E600512B3E /* AppDelegate.swift in Sources */,
+				FC3F1ED21AA51FC700F3B395 /* TwoOrFourViewController.swift in Sources */,
+				FC3F1EDD1AA54FBB00F3B395 /* DataStructures.swift in Sources */,
+				FC3F1ED51AA531C500F3B395 /* OuterTouchPreservingView.swift in Sources */,
+				FC3F1EDA1AA5414500F3B395 /* NumberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +260,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FCB557AD1AA425E600512B3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCB557AE1AA425E600512B3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCB557B21AA425E600512B3E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +421,7 @@
 				FCB557C51AA425E600512B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCB557C61AA425E600512B3E /* Build configuration list for PBXNativeTarget "8402Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				FCB557C81AA425E600512B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
