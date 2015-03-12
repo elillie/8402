@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>660B2416-2A2D-4CBA-941C-CD38531A7F15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>8402</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>148DCA2163A3B54A7904F3CE39C775691361D898</key>
+		<string>https://github.com/elillie/8402</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>8402.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>148DCA2163A3B54A7904F3CE39C775691361D898</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/elillie/8402</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>148DCA2163A3B54A7904F3CE39C775691361D898</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>148DCA2163A3B54A7904F3CE39C775691361D898</string>
+			<key>IDESourceControlWCCName</key>
+			<string>8402</string>
+		</dict>
+	</array>
+</dict>
+</plist>

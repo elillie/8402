@@ -33,10 +33,6 @@ class PlayViewController: UIViewController {
   @IBOutlet var cellD3: UIControl!
   @IBOutlet var cellD4: UIControl!
   
-  @IBOutlet var up: UIButton!
-  @IBOutlet var down: UIButton!
-  @IBOutlet var left: UIButton!
-  @IBOutlet var right: UIButton!
   
   
   
@@ -69,17 +65,6 @@ class PlayViewController: UIViewController {
           controlMatrix[i,j].tag = i*4+j
         }
       }
-      
-      up.tag = 1
-      down.tag = 2
-      right.tag = 3
-      left.tag = 4
-      
-      up.addTarget(self, action: "swipe:", forControlEvents: UIControlEvents.TouchUpInside)
-      down.addTarget(self, action: "swipe:", forControlEvents: UIControlEvents.TouchUpInside)
-      right.addTarget(self, action: "swipe:", forControlEvents: UIControlEvents.TouchUpInside)
-      left.addTarget(self, action: "swipe:", forControlEvents: UIControlEvents.TouchUpInside)
-  
   
   }
 
@@ -108,14 +93,86 @@ class PlayViewController: UIViewController {
     cellSelected = false
     println(control.frame.origin)
     self.addCellatRowAndColumnWithValue(control.tag/4, column: control.tag%4, value: number)
+    self.executeMove()
   }
   
-  func swipe(sender: UIButton) {
+  func executeMove() {
+    
+    var rowOcc = 0
+    var columnOcc = 0
+    
+    var valMatrix = ValMatrix(rows: 4, columns: 4)
+    
+    for (var i = 0; i<4; i++) {
+      for (var j = 0; j<4; j++) {
+        valMatrix[i,j] = gridMatrix[i,j].numberValue
+        if gridMatrix[i,j].occupied {
+          rowOcc+=i+1
+          columnOcc+=j+1
+        }
+      }
+    }
+    
+    gridMatrix.printVals()
+    
+    if rowOcc-columnOcc > 0{
+      if gridMatrix.moveIsValid(1) {
+        swipe(1)
+      } else if gridMatrix.moveIsValid(4) {
+        swipe(4)
+      } else if gridMatrix.moveIsValid(3) {
+        swipe(3)
+      } else if gridMatrix.moveIsValid(2) {
+        swipe(2)
+      } else {println("game over")}
+    } else if rowOcc/columnOcc == 1{
+      var random = rand()%2
+      if random == 0{
+        if gridMatrix.moveIsValid(1) {
+          swipe(1)
+        } else if gridMatrix.moveIsValid(4) {
+          swipe(4)
+        } else if gridMatrix.moveIsValid(3) {
+          swipe(3)
+        } else if gridMatrix.moveIsValid(2) {
+          swipe(2)
+        } else {println("game over")}
+      } else {
+        if gridMatrix.moveIsValid(4) {
+          swipe(4)
+        } else if gridMatrix.moveIsValid(1) {
+          swipe(1)
+        } else if gridMatrix.moveIsValid(3) {
+          swipe(3)
+        } else if gridMatrix.moveIsValid(2) {
+          swipe(2)
+        } else {println("game over")}
+      }
+    } else {
+      if gridMatrix.moveIsValid(4) {
+        swipe(4)
+      } else if gridMatrix.moveIsValid(1) {
+        swipe(1)
+      } else if gridMatrix.moveIsValid(3) {
+        swipe(3)
+      } else if gridMatrix.moveIsValid(2) {
+        swipe(2)
+      } else {println("game over")}
+    }
+
+//    println("current:")
+//    gridMatrix.printVals()
+//    println("previous:")
+//    valMatrix.printVals()
+    
+  }
+  
+  func swipe(direction: Int) {
     
     gridMatrix.printVals()
     gridMatrix.resetMatrix()
     
-    switch sender.tag {
+    switch direction {
     case 1:
       println("up")
       for var i = 0; i <= 3; i++ {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6254"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -23,11 +23,7 @@
                 <outlet property="cellD2" destination="zil-fz-Rr6" id="ilj-IK-htl"/>
                 <outlet property="cellD3" destination="Xbt-qm-chG" id="NZ1-xS-Zl2"/>
                 <outlet property="cellD4" destination="Giy-Us-sOL" id="gcJ-Gp-gho"/>
-                <outlet property="down" destination="f8v-7t-C1b" id="hlq-cA-pIe"/>
                 <outlet property="gridBackgroundView" destination="Zay-IY-mmj" id="TLa-Vc-j9u"/>
-                <outlet property="left" destination="5nl-wa-6wt" id="TXe-xt-jKb"/>
-                <outlet property="right" destination="7qN-lu-wfv" id="PSQ-he-4VU"/>
-                <outlet property="up" destination="ZMe-MP-Xy8" id="ds3-GA-0Vx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -182,30 +178,6 @@
                                 <constraint firstItem="6PW-gD-Zvc" firstAttribute="leading" secondItem="jUZ-Jd-TJ5" secondAttribute="trailing" constant="20" id="yuz-SY-A21"/>
                             </constraints>
                         </view>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nl-wa-6wt">
-                            <rect key="frame" x="129" y="552" width="30" height="30"/>
-                            <state key="normal" title="Left">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8v-7t-C1b">
-                            <rect key="frame" x="167" y="585" width="40" height="30"/>
-                            <state key="normal" title="Down">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-MP-Xy8">
-                            <rect key="frame" x="172" y="519" width="30" height="30"/>
-                            <state key="normal" title="Up">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qN-lu-wfv">
-                            <rect key="frame" x="215" y="552" width="37" height="30"/>
-                            <state key="normal" title="Right">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
